@@ -13,27 +13,27 @@ abstract class Sub
             ->addSauces();
     }
 
-    public function layBread()
+    protected function layBread()
     {
         var_dump("laying down the bread");
 
         return $this;
     }
 
-    public function addLettuce()
+    protected function addLettuce()
     {
         var_dump("add some lettuce");
 
         return $this;
     }
 
-    public function addSauces()
+    protected function addSauces()
     {
         var_dump("add sauces");
 
         return $this;
     }
 
-    abstract public function addPrimaryToppings();
+    abstract protected function addPrimaryToppings();
 
 }
