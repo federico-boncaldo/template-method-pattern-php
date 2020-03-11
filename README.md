@@ -1,10 +1,10 @@
 # Template Method Design Pattern in PHP
 
-The code of this example is based on the [Laracasts](https://laracasts.com/) lesson on the [Template Method Pattern](https://laracasts.com/series/design-patterns-in-php/episodes/4)
+The code of this example is based on the [Laracasts](https://laracasts.com/) lesson on the [Template Method Pattern](https://laracasts.com/series/design-patterns-in-php/episodes/4).
 
-The pattern is used avoid duplications among classes who share similar functionalities by moving all common functionalities and algorithm in a parent class which usually is declared abstract.
+The pattern is used to avoid duplications among classes which share similar functionalities by moving all functionalities and algorithms in a parent class which usually is declared abstract.
 
-An abstract method is used inside the parent class to allow the sub classes to define behaviours that are specific of each class.
+An abstract method is used inside the parent class to allow the subclasses to define behaviours that are specific of each class.
 
 ## Info
 
@@ -16,6 +16,6 @@ and from command line running:
 
 `php index.php`
 
-##Requirements
+## Requirements
 
 PHP 5 or greater
