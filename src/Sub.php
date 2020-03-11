@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 abstract class Sub
 {
     public function layBread()
