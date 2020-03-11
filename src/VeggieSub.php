@@ -2,7 +2,7 @@
 
 namespace App;
 
-class VeggieSub
+class VeggieSub extends Sub
 {
     public function make()
     {
@@ -13,20 +13,6 @@ class VeggieSub
             ->addSauces();
     }
 
-    public function layBread()
-    {
-        var_dump("laying down the bread");
-
-        return $this;
-    }
-
-    public function addLettuce()
-    {
-        var_dump("add some lettuce");
-
-        return $this;
-    }
-
     public function addVeggies()
     {
         var_dump("add bean veggies");
@@ -34,10 +20,4 @@ class VeggieSub
         return $this;
     }
 
-    public function addSauces()
-    {
-        var_dump("add sauces");
-
-        return $this;
-    }
 }
