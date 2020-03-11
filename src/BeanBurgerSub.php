@@ -4,7 +4,7 @@ namespace App;
 
 class BeanBurgerSub extends Sub
 {
-    public function addBeanBurger()
+    public function addPrimaryToppings()
     {
         var_dump("add bean burger");
 
