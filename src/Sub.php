@@ -33,4 +33,7 @@ abstract class Sub
 
         return $this;
     }
+
+    abstract public function addPrimaryToppings();
+
 }
