@@ -4,6 +4,15 @@ namespace App;
 
 abstract class Sub
 {
+    public function make()
+    {
+        $this
+            ->layBread()
+            ->addLettuce()
+            ->addPrimaryToppings()
+            ->addSauces();
+    }
+
     public function layBread()
     {
         var_dump("laying down the bread");
