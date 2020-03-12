@@ -1,6 +1,6 @@
 # Template Method Design Pattern in PHP
 
-The code of this example is based on the [Laracasts](https://laracasts.com/) lesson on the [Template Method Pattern](https://laracasts.com/series/design-patterns-in-php/episodes/4).
+The code of this example is based on the [Laracasts](https://laracasts.com/) lesson on the [Template Method Pattern](https://laracasts.com/series/design-patterns-in-php/episodes/3).
 
 The pattern is used to avoid duplications among classes which share similar functionalities by moving all functionalities and algorithms in a parent class which usually is declared abstract.
 
